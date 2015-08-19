@@ -10,10 +10,5 @@ if [ $? != 0 ] ; then
     exit 1
 fi
 
-if [ -d ./public ] ; then
-    echo "-- Pruning current static files from ./${source}"
-    rm -rf ./${source}
-fi
-
 echo "-- Uploading using rsync to ${target}"
 rsync -aqz --delete-after --no-progress ${source} -e ssh ${target}
