@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.section {
+  padding: 4rem 0 3rem;
+  text-align: center;
+}
+
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+.section.inverted {
+  background-color: #f8397e;
+  color: #fff;
+}
+
+input {
+  color: #222;
+}
+
+.header img {
+  width: 80%;
+  margin: .67em auto;
+}
+
+.column.text,
+.columns.text {
+  text-align: left;
+}
+
+.column.text-right,
+.columns.text-right {
+  text-align: right;
+}
+
+.footer {
+  color: #a2a2a2;
+}
+
+.footer a,
+.footer a:hover {
+  color: #a0def2;
+}
