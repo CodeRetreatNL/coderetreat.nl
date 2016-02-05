@@ -1,7 +1,8 @@
 #!/bin/bash
 
 source=.
-target=apps@spock.ariejan.net:/home/apps/sites/coderetreat.nl
+# target=apps@spock.ariejan.net:/home/apps/sites/coderetreat.nl
+target=ariejan@mail.devroom.io:/home/ariejan/www/coderetreat.nl
 
 
 git symbolic-ref HEAD | grep -q "refs/heads/master"
